@@ -14,8 +14,12 @@ function shellMajorVersion() {
     return parseInt(ver.split('.')[0], 10) || 50;
 }
 
-const HwMonitorToggleButton = GObject.registerClass(
-class HwMonitorToggleButton extends PanelMenu.Button {
+/* A new widget.js mtime is a new ES module. GNOME still derives one GType name
+ * from the class, so a fixed name throws "already registered" on disable/enable.
+ * The suffix keeps each reload valid until the next Shell restart. */
+const HwMonitorToggleButton = GObject.registerClass({
+    GTypeName: `HwMonitorToggle${Date.now()}`,
+}, class HwMonitorToggleButton extends PanelMenu.Button {
     _init(panel) {
         super._init(0.0, 'Hardware monitor', true);
         this._hwPanel = panel;
