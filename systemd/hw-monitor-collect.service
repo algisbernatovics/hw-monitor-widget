@@ -1,0 +1,12 @@
+[Unit]
+Description=HW Monitor Widget stats collector
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/lib/hw-monitor-widget/collect_daemon.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

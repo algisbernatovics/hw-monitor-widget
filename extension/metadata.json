@@ -1,0 +1,8 @@
+{
+  "uuid": "hw-monitor-widget@userpowers.local",
+  "name": "HW Monitor Widget",
+  "description": "Desktop CPU, dual GPU, and disk panel for GNOME Wayland (stats from user collector service)",
+  "shell-version": ["49", "50"],
+  "version": 22,
+  "url": "https://github.com/algisbernatovics/hw-monitor-widget"
+}

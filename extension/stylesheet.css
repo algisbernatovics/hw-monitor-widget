@@ -1,0 +1,88 @@
+.hw-monitor-widget {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    color: #ffffff;
+    spacing: 3px;
+    padding: 10px 12px;
+    background-color: rgba(8, 10, 14, 0.97);
+    border: 1px solid rgba(0, 242, 255, 0.22);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+
+.hw-monitor-widget .section-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #00f2ff;
+    padding-top: 10px;
+}
+
+.hw-monitor-widget .section-title:first-child {
+    padding-top: 0;
+}
+
+.hw-monitor-widget .label-muted {
+    color: #cccccc;
+}
+
+.hw-monitor-widget .label-accent {
+    color: #00f2ff;
+}
+
+.hw-monitor-widget .label-warn {
+    color: #ff0055;
+}
+
+.hw-monitor-widget .rule {
+    color: #444444;
+    font-size: 11px;
+}
+
+.hw-monitor-widget .section-rule {
+    height: 14px;
+    min-height: 14px;
+    overflow: hidden;
+}
+
+.hw-monitor-widget .usage-bar,
+.hw-monitor-widget .temp-bar {
+    min-height: 6px;
+    margin: 1px 0 4px 0;
+}
+
+.hw-monitor-widget .graph-box {
+    background-color: rgba(68, 68, 68, 0.35);
+    border-radius: 0;
+}
+
+.hw-monitor-widget .row {
+    spacing: 4px;
+}
+
+.hw-monitor-widget .metric-row {
+    spacing: 0;
+}
+
+.hw-monitor-widget .metric-label {
+    width: 72px;
+}
+
+.hw-monitor-widget .metric-value {
+    color: #00f2ff;
+}
+
+.hw-monitor-widget .metric-right {
+    color: #cccccc;
+}
+
+.hw-monitor-widget .net-graphs {
+    spacing: 8px;
+}
+
+.hw-monitor-widget .net-graph {
+    height: 35px;
+    min-width: 0;
+}
+
+.hw-monitor-widget .net-graphs {
+    overflow: hidden;
+}

@@ -1,0 +1,17 @@
+{
+  "net_interface": "",
+  "refresh_seconds": 2,
+  "bar_width": 336,
+  "gap_x": 0,
+  "gap_y": 0,
+  "panel_corner": "top-right",
+  "auto_hide_when_focused": false,
+  "user_hidden": false,
+  "show_nvme_temp": true,
+  "cpu_title": "CPU",
+  "bar_height": 6,
+  "gpu_titles": ["GPU 0"],
+  "mounts": [
+    { "path": "/", "label": "OS" }
+  ]
+}
