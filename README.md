@@ -4,6 +4,8 @@ A GNOME Wayland panel for CPU, RAM, NVIDIA GPUs, disks, and network throughput. 
 
 GNOME 49–50. Wayland. NVIDIA and `lm-sensors` are optional.
 
+![HW Monitor Widget on a desktop with a CPU, two NVIDIA GPUs, disks, and network sparklines](docs/screenshot.jpg)
+
 ## Why I built it
 
 I run local AI models on a desktop with two NVIDIA GPUs. During a run I need CPU load, RAM, per-GPU utilization, VRAM, temperature, and power on screen, without opening another tool.
@@ -136,6 +138,7 @@ gnome-extensions info hw-monitor-widget@userpowers.local
 | `scripts/enable-hw-monitor-widget.sh` | Login enable |
 | `systemd/hw-monitor-collect.service` | User service template |
 | `config/settings.json.example` | Default config |
+| `docs/screenshot.jpg` | Panel screenshot |
 
 ## License
 
